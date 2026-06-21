@@ -5,7 +5,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 VERSION = "0.2"
-MESSAGE = "Hello world from the CLO835 class!"
+MESSAGE = "Hello world from the CLO835 class 126332246!"
 PORT = 8080
 
 
