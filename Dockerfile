@@ -2,9 +2,9 @@
 # Requirement: the image must run your app and serve on port 8080.
 # Tip: use the files from apps/<your-language>/.
 
-# FROM <choose a base image for your language>
-# WORKDIR /app
-# COPY . .
+FROM python:3.11-slim
+WORKDIR /app
+COPY apps/python/app.py .
 # RUN <build your app, if it needs a build step>
-# EXPOSE 8080
-# CMD ["<command that starts your app>"]
+EXPOSE 8080
+CMD ["python3", "app.py"]
