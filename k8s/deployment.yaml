@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: clo835-assignment2-srsivagnanasundaram-container
-          image: clo835-assignment2-srsivagnanasundaram:0.2
+          image: r3x0n05/clo835-assignment2-srsivagnanasundaram:0.2
           ports:
             - containerPort: 8080
